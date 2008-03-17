@@ -1,0 +1,5 @@
+category: Perl Net
+requires: perl
+sdesc: "Perl module for accessing wunderground.com"
+ldesc: "Perl extension for retrieving weather information from 
+wunderground.com"

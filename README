@@ -1,0 +1,61 @@
+perl-Weather-Underground
+--------------------------------------------
+Perl extension for retrieving weather information from wunderground.com.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Canonical homepage:
+  http://search.cpan.org/~mnaguib/Weather-Underground/
+
+Canonical download:
+  http://www.cpan.org/authors/id/M/MN/MNAGUIB/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Weather-Underground-3.02-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Weather-Underground-3.02-X.cygport all
+
+This will create:
+  /usr/src/perl-Weather-Underground-3.02-X-src.tar.bz2
+  /usr/src/perl-Weather-Underground-3.02-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/Weather/Underground.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Weather/Underground/.packlist
+  /usr/share/doc/perl-Weather-Underground-3.02/Changes
+  /usr/share/man/man3/Weather.Underground.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 3.02-2 -----
+Rebuilt for perl-5.10.
+
+----- version 3.02-1 -----
+Major version bump, built for perl-5.8.7.
+
+----- version 2.20-1 -----
+Version bump, built for perl-5.8.6.
+
+----- version 2.19-1 -----
+Upstream bugfix release; see Changes for details.
+
+----- version 2.16-1 -----
+New upstream release.  Fixed errors caused by site layout changes.
+Man page is now gzipped.
+
+----- version 2.14-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
